@@ -54,7 +54,7 @@
 - [앱 시연 영상](https://youtu.be/qog-8tYYUI)  
 
 ---
-# English ver<span style="color:blue">
+# <span style="color:blue">English ver</span>
 # Chatbot Project
 ## Chatbot Project for Suburban Scholarship Recommendations
 - Project Duration : 2022.08.19 - 2022.09.02
