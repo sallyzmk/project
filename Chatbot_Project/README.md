@@ -13,35 +13,21 @@
 
 ## 프로젝트 정보
 - 사용되는 언어: <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-- 사용된 도구: "VS 코드" 즉 "카카오 I 오픈 빌더"
-- 프레임워크: '''플래스크''''
-- DBMS: '''포스트그레스SQL '''
-- 플랫폼: '''헤로쿠'''
-- 라이브러리: '''플라스크'''는 '''SQ'''Lalchemy는 "판다스"는 "싸이콥 2"와 같은 단어이다.
-- 설명
-  + Postgresql을 통해 Flask 웹 프레임워크 및 Heroku 플랫폼에 배포하고 간단한 DB 관리
-  - 서비스 1: 요구 사항을 충족하는 교외 장학금 추천
-  - 서비스 2:
-  - 챗봇의 두 가지 버전  
+- 사용된 도구: VSCode, 카카오 i 오픈 빌더
+- 프레임워크: Flask
+- DBMS: PostgreSQL
+- 플랫폼: Heroku
+- 라이브러리: flask, SQLAlchemy, Pandas, Psycopg2 etc.
+- 설명  
+Postgresql을 통해 Flask 웹 프레임워크 및 Heroku 플랫폼에 배포하고 간단한 DB 관리
+  + 서비스 1: 장학금 분류 및 추천 서비스  
+    서비스1은 입력 방식에 따라 2가지 챗봇으로 나뉩니다. 
+    + 꽃망울1 챗봇 : 한 줄 입력
+    + 꽃망울2 챗봇 : 개별 입력
+  + 서비스 2: 장학금 조회 서비스
 
-## Project info
-- Language used: <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-- Tools used: VSCode, Kakao i open builder
-- Framework: Flask
-- DBMS : PostgreSQL
-- Platform: Heroku
-- Library: flask, SQLAlchemy, Pandas, Psycopg2 etc.
-- Explanation
-  + Deployment to the Flask web framework and Heroku platform and simple DB management with Postgresql  
-  + Service 1 : Recommendation suburban scholarships to meet the requirements
-    Service 1's Two Versions of Insert Option
-      Option 1 : One Line Insert  
-      Option 2 : Individual Insert
-  + Service 2 : Inquiry suburban scholarships that users want to know about
-
-
-## 데이터
-- 프로젝트 시작일 기준 (2022.08.22) 마감되지 않은 장학금만 수집한 데이터입니다.
+## 데이터  
+프로젝트 시작일 기준 (2022.08.22) 마감되지 않은 장학금만 수집한 데이터입니다.
 - [꽃망울_챗봇_데이터](https://github.com/sallyzmk/sallyzmk_project/blob/6df4894a69d46e37b86faf922f37e2e45f6e4d5e/Chatbot_Project/data/dreamspon.csv)  
 
 ## 코드
@@ -53,9 +39,14 @@
 - [PPT 발표 영상](https://youtu.be/mu_VoVjM4fo)
 - [앱 시연 영상](https://youtu.be/qog-8tYYUI)  
 
+## 챗봇  
+*주의사항*  
+Heroku에서 기존 무료 플랜을 폐지한다고 발표했습니다. 이에 따라 챗봇 서비스가 원활하게 진행되지 않을 수 있습니다.
+- [꽃망울1 챗봇](http://pf.kakao.com/_xgQtlxj)
+- [꽃망울2 챗봇](http://pf.kakao.com/_xlytlxj)
+
 ---
-<span style="color:blue"> 글씨색 변경 </span>
-# <span style="color:blue"> English ver </span>
+# English ver.
 # Chatbot Project
 ## Chatbot Project for Suburban Scholarship Recommendations
 - Project Duration : 2022.08.19 - 2022.09.02
@@ -78,17 +69,17 @@
 - DBMS : PostgreSQL
 - Platform: Heroku
 - Library: flask, SQLAlchemy, Pandas, Psycopg2 etc.
-- Explanation
-  + Deployment to the Flask web framework and Heroku platform and simple DB management with Postgresql  
-  + Service 1 : Recommendation suburban scholarships to meet the requirements
-    Service 1's Two Versions of Insert Option
-      Option 1 : One Line Insert  
-      Option 2 : Individual Insert
+- Explanation  
+Deployment to the Flask web framework and Heroku platform and simple DB management with Postgresql  
+  + Service 1 : Scholarship classification and recommendation services  
+    Service 1's Two Versions of Insert Option  
+      + Option 1 : One Line Insert  
+      + Option 2 : Individual Insert  
   + Service 2 : Inquiry suburban scholarships that users want to know about  
 
 ## data
 - This is a collection of only scholarships that can be applied.(As of the project start date. 2022.08.22)
-- [꽃망울_챗봇_데이터](https://github.com/sallyzmk/sallyzmk_project/blob/6df4894a69d46e37b86faf922f37e2e45f6e4d5e/Chatbot_Project/data/dreamspon.csv)  
+- [data](https://github.com/sallyzmk/sallyzmk_project/blob/6df4894a69d46e37b86faf922f37e2e45f6e4d5e/Chatbot_Project/data/dreamspon.csv)  
 
 ## code
 - [main code ver.1](https://github.com/sallyzmk/sallyzmk_project/blob/main/Chatbot_Project/app/flower75982.py)
@@ -98,3 +89,9 @@
 - [PDF](https://github.com/sallyzmk/sallyzmk_project/blob/6df4894a69d46e37b86faf922f37e2e45f6e4d5e/Chatbot_Project/%EA%BD%83%EB%A7%9D%EC%9A%B8_%EC%B1%97%EB%B4%87_%EC%86%8C%EA%B0%9C_PPT.pdf)
 - [Introductory video](https://youtu.be/mu_VoVjM4fo)
 - [App Demo Video](https://youtu.be/qog-8tYYUI)
+
+## Chatbot  
+*Precautions*  
+Heroku has announced that it will abolish the existing free plan. As a result, the chatbot service may not proceed smoothly.  
+- [Chatbot1 꽃망울1](http://pf.kakao.com/_xgQtlxj)
+- [Chatbot2 꽃망울2](http://pf.kakao.com/_xlytlxj)
