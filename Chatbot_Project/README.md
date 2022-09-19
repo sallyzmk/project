@@ -18,10 +18,9 @@
 - DBMS: PostgreSQL
 - 플랫폼: Heroku
 - 라이브러리: flask, SQLAlchemy, Pandas, Psycopg2 etc.
-- 설명  
-Postgresql을 통해 Flask 웹 프레임워크 및 Heroku 플랫폼에 배포하고 간단한 DB 관리
+- 설명 : Postgresql을 통해 Flask 웹 프레임워크 및 Heroku 플랫폼에 배포하고 간단한 DB 관리
   + 서비스 1: 장학금 분류 및 추천 서비스  
-    서비스1은 입력 방식에 따라 2가지 챗봇으로 나뉩니다. 
+    *서비스1은 입력 방식에 따라 2가지 챗봇으로 나뉩니다. 
     + 꽃망울1 챗봇 : 한 줄 입력
     + 꽃망울2 챗봇 : 개별 입력
   + 서비스 2: 장학금 조회 서비스
@@ -69,10 +68,9 @@ Heroku에서 기존 무료 플랜을 폐지한다고 발표했습니다. 이에 
 - DBMS : PostgreSQL
 - Platform: Heroku
 - Library: flask, SQLAlchemy, Pandas, Psycopg2 etc.
-- Explanation  
-Deployment to the Flask web framework and Heroku platform and simple DB management with Postgresql  
+- Explanation : Deployment to the Flask web framework and Heroku platform and simple DB management with Postgresql  
   + Service 1 : Scholarship classification and recommendation services  
-    Service 1's Two Versions of Insert Option  
+    * Service 1's Two Versions of Insert Option  
       + Option 1 : One Line Insert  
       + Option 2 : Individual Insert  
   + Service 2 : Inquiry suburban scholarships that users want to know about  
