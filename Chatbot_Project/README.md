@@ -14,7 +14,7 @@
 ## 프로젝트 정보
 - 사용되는 언어: <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 - 사용된 도구: VSCode, 카카오 i 오픈 빌더
-- 프레임워크: Flask
+- 프레임워크: <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">
 - DBMS: PostgreSQL
 - 플랫폼: Heroku
 - 라이브러리: flask, SQLAlchemy, Pandas, Psycopg2 etc.
@@ -70,7 +70,7 @@ Heroku에서 기존 무료 플랜을 폐지한다고 발표했습니다. 이에 
 - Library: flask, SQLAlchemy, Pandas, Psycopg2 etc.
 - Explanation : Deployment to the Flask web framework and Heroku platform and simple DB management with Postgresql  
   + Service 1 : Scholarship classification and recommendation services  
-    * Service 1's Two Versions of Insert Option  
+    *Service 1's Two Versions of Insert Option  
       + Option 1 : One Line Insert  
       + Option 2 : Individual Insert  
   + Service 2 : Inquiry suburban scholarships that users want to know about  
