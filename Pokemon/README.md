@@ -104,7 +104,7 @@
 
 
 ## 코드
-- [포켓몬 프로젝트 코드 파일](https://github.com/sallyzmk/sallyzmk_project/tree/main/pokemone/src)
+- [포켓몬 프로젝트 코드 파일](https://github.com/sallyzmk/sallyzmk_project/tree/main/Pokemon/src)
 
 ## 소개 자료
 - [PDF]()
@@ -216,7 +216,7 @@
 </details>
 
 ## code
-- [Pokemone Project code file](https://github.com/sallyzmk/sallyzmk_project/tree/main/pokemone/src)  
+- [Pokemone Project code file](https://github.com/sallyzmk/sallyzmk_project/tree/main/Pokemon/src)  
 
 ## Introduction our game
 - [PDF]()
