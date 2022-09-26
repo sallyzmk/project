@@ -1,9 +1,8 @@
-public class typeElec extends pokemon {
+public class typeWater extends pokemon{
 
-//	int skill1Mp = 30;
-	public typeElec(String name,int maxHp,int attack, int defence, int maxMp){
+	public typeWater(String name,int maxHp,int attack, int defence, int maxMp){
 		super(name);
-		super.type = "Àü±â";
+		super.type = "ë¬¼";
 		
 		super.maxHp = maxHp;
 		super.presentHp = maxHp;
@@ -15,45 +14,43 @@ public class typeElec extends pokemon {
 		
 		super.defence = defence;
 		super.presentDefence = defence;
+		
+		
 	} 
-	//½ºÅ³1
-	public void ½ºÅ³1(pokemon enemy){
+	
+	//ìŠ¤í‚¬9
+	public void ìŠ¤í‚¬9(pokemon enemy){
 		String goodBad = pokemonType(enemy);
 		int damage = (int) (super.attack*1.2);
 		int costMp = 30;
 		
-		if(goodBad == "ÁÁÀ½") {
+		if(goodBad == "ì¢‹ìŒ") {
 			 damage = (int)( damage * 1.3);
 		}else {
 			 damage = (int) (damage  * 0.8);
 		}
 			
-		System.out.println("Àü±âÃæ°İ ½ºÅ³À» »ç¿ëÇß´Ù!");
+		System.out.println("ë¬¼ëŒ€í¬ ìŠ¤í‚¬ì„ ì‚¬ìš©í–ˆë‹¤!");
 		enemy.presentHp = enemy.presentHp - (damage - enemy.defence);
 		super.presentMp = super.presentMp-costMp;
 	}
 	
-	//½ºÅ³2
-	public void ½ºÅ³2(pokemon enemy){
+	//ìŠ¤í‚¬10
+	public void ìŠ¤í‚¬10(pokemon enemy){
 		String goodBad = pokemonType(enemy);
 		
 		int damage = (int) (super.attack*1.5);
 		int costMp = 50;
 		
-		if(goodBad == "ÁÁÀ½") {
+		if(goodBad == "ì¢‹ìŒ") {
 			 damage = (int) (damage  * 1.3);
 		}else {
 			 damage = (int) (damage  * 0.8);
 		}
 				
-		System.out.println("°­È­µÈ Àü±âÃâ°İ ½ºÅ³À» »ç¿ëÇß´Ù.");
+		System.out.println("ê°•í™”ëœ ë¬¼ëŒ€í¬ ìŠ¤í‚¬ì„ ì‚¬ìš©í–ˆë‹¤.");
 		enemy.presentHp = enemy.presentHp - (damage - enemy.defence);
 		super.presentMp = super.presentMp-costMp;
 	}
 	
-	
-	// 20*1.5(½ºÅ³¹öÇÁ)*1.3(»ó¼º) = 39
-	// 39-3(¹æ¾î·Â) = 36
-	// ±×·¡¼­ ²¿ºÎ±âÀÇ Ã¼·Â 100 - 36 = 64
-	// ½ÇÁ¦·Î ³²Àº Ã¼·Â 64³ª¿È.
 }
