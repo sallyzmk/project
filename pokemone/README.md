@@ -15,7 +15,7 @@
 
   - 1.게임시작
 
-  - 2.인트로
+  - 2.태초마을
     - 스타팅 포켓몬 선택
     - 게임 설명 (스킵 가능)
 
@@ -26,7 +26,7 @@
     - 전기마을 (야생전투)
     - 흙마을 (야생전투)
     - 체육관 (관장전투)
-
+---
   - *야생전투 (1대1): 
     - 인트로
       - "전투를 하시겠습니까?"  
@@ -59,7 +59,7 @@
         - [결과4] 야생 포켓몬 hp 10 → 도망, 수집 불가
       - 대결 종료
         전투에 참여한 모든 포켓몬의 hp, 마나, 방어력을 기존 게이지로 원상복구한다.  
-
+---
   - *관장전투 (4대4):  
     - 인트로  
       플레이어가 보유한 포켓몬이 4마리 미만이면 체육관에 입장 불가  
@@ -83,7 +83,7 @@
           플레이어 승리. 게임 종료.
       - 대결 종료  
         전투에 참여한 모든 포켓몬의 hp, 마나, 방어력을 기존 게이지로 원상복구한다.
-
+---
   - *포켓몬스터 등록 : 
     - 기본 포켓몬
       - 총 5개 속성  
@@ -95,7 +95,7 @@
       - 각 셋트 당 4마리
       - 총 12마리
       - 관장 포켓몬은 스킬이 없음. 초급자인 플레이어가 스킬까지 사용하는 관장의 포켓몬을 이길 수 없기 때문.
-
+---
   - *포켓볼 :
     - 실제 포켓몬 게임 속의 포켓볼 포획률을 코드에 적용함.
     - 실제 포켓몬 게임 속의 흔들림 공식을 코드에 적용함.
@@ -130,7 +130,7 @@
 
   - 1.starting Game
 
-  - 2.Intro
+  - 2.beginning village
     - Choose your starting pokemon
     - Game description (skipable)
 
@@ -141,7 +141,7 @@
     - Electric Village (Wild Battle)
     - Dirt Village (Wild Battle)
     - Gym (Chief Battle)
-
+---
   - *Wild Battle (1v1):
     - intro 
       - "Would you like to fight?"  
@@ -174,7 +174,7 @@
         - [Result 4] Wild Pokémon hp 10 → Run away, cannot be collected
       - End of confrontation
         Restores the HP, Mana, and Defense of all Pokémon participating in battle to their original gauges.  
-
+---
   - *Director Battle (4v4):  
     - intro  
       If a player has less than 4 Pokémon, they cannot enter the gym.  
@@ -196,7 +196,7 @@
           player wins. game over.
       - End of confrontation  
         Restores the HP, Mana, and Defense of all Pokémon participating in battle to their original gauges.  
-      
+---
   - *Pokemon registration: 
     - Basic Pokemon
       - five kinds of attributes  
@@ -208,7 +208,7 @@
       - 4 in each set
       - 12 in total
       - The leader Pokemon has no skills. Because a beginner player cannot defeat the leader's Pokémon, which even uses skills.
-
+---
   - *Pocket Ball:
     - Applying the Pokeball catch rate in the actual Pokemon game to the code.
     - Applied the shaking formula from the actual Pokemon game to the code.
