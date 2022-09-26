@@ -1,5 +1,5 @@
-# 챗봇 개발 프로젝트
-## 교외 장학금 추천 챗봇 개발
+# 자바 토이 프로젝트
+## 포켓몬스터 게임 구현 (자바)
 - 기간 : 2022.09.22 - 2022.09.26
 - 팀원 : 정민경 외 4명
 - 주제 : 포켓몬스터 게임 자바로 간단하게 구현해보기
@@ -92,8 +92,8 @@
 
 ---
 # English ver.
-# Chatbot Project
-## Chatbot Project for Suburban Scholarship Recommendations
+# Java Toy Project
+## Implementation of Pokemon game (Java)
 - Project Duration : 2022.09.22 - 2022.09.26
 - The number of Teammate : Min Kyung Joung and four others
 - Subject : Simple implementation of a Pokemon game in Java
