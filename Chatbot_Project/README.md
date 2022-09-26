@@ -12,18 +12,18 @@
   + 장학금에 대한 상세 정보 조회.  
 
 ## 프로젝트 정보
-- 사용되는 언어: <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-- 사용된 도구: <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VSCode&logoColor=white"> <img src="https://img.shields.io/badge/Kakao-FFCD00?style=for-the-badge&logo=Kakao&logoColor=black"> 카카오 i 오픈 빌더 
-- 프레임워크: <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">
-- DBMS: <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white">
-- 플랫폼: <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=Heroku&logoColor=white">
-- 라이브러리: <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white"> SQLAlchemy, Psycopg2 etc.
+- 사용되는 언어 : <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+- 사용된 도구 : <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VSCode&logoColor=white"> <img src="https://img.shields.io/badge/Kakao-FFCD00?style=for-the-badge&logo=Kakao&logoColor=black"> 카카오 i 오픈 빌더 
+- 프레임워크 : <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">
+- DBMS : <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white">
+- 플랫폼 : <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=Heroku&logoColor=white">
+- 라이브러리 : <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white"> SQLAlchemy, Psycopg2 etc.
 - 설명 : Postgresql을 통해 Flask 웹 프레임워크 및 Heroku 플랫폼에 배포하고 간단한 DB 관리
-  + 서비스 1: 장학금 분류 및 추천 서비스  
+  + 서비스 1 : 장학금 분류 및 추천 서비스  
     *서비스1은 입력 방식에 따라 2가지 챗봇으로 나뉩니다.*
     + 꽃망울1 챗봇 : 한 줄 입력
     + 꽃망울2 챗봇 : 개별 입력
-  + 서비스 2: 장학금 조회 서비스
+  + 서비스 2 : 장학금 조회 서비스
 
 ## 데이터  
 프로젝트 시작일 기준 (2022.08.22) 마감되지 않은 장학금만 수집한 데이터입니다.
@@ -62,12 +62,12 @@ Heroku에서 기존 무료 플랜을 폐지한다고 발표했습니다. 이에 
   + Inquiry for details of scholarship.  
 
 ## Project info
-- Language used: <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-- Tools used: <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VSCode&logoColor=white"> <img src="https://img.shields.io/badge/Kakao-FFCD00?style=for-the-badge&logo=Kakao&logoColor=black"> Kakao i open builder
-- Framework: <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">
+- Language used : <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+- Tools used : <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VSCode&logoColor=white"> <img src="https://img.shields.io/badge/Kakao-FFCD00?style=for-the-badge&logo=Kakao&logoColor=black"> Kakao i open builder
+- Framework : <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">
 - DBMS : <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white">
-- Platform: <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=Heroku&logoColor=white">
-- Library: <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white"> SQLAlchemy, Psycopg2 etc.
+- Platform : <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=Heroku&logoColor=white">
+- Library : <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white"> SQLAlchemy, Psycopg2 etc.
 - Explanation : Deployment to the Flask web framework and Heroku platform and simple DB management with Postgresql  
   + Service 1 : Scholarship classification and recommendation services  
     *Service 1's Two Versions of Insert Option*  
