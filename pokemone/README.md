@@ -9,6 +9,9 @@
 - 사용된 도구: sts 3
 - 인코딩 : MS949
 - 설명 :
+<details>
+<summary>여기를 눌러주세요</summary>
+    <div markdown="1">
   - 1.게임시작
 
   - 2.인트로
@@ -82,6 +85,8 @@
   - *포켓볼 :
     - 실제 포켓몬 게임 속의 포켓볼 포획률을 코드에 적용함.
     - 실제 포켓몬 게임 속의 흔들림 공식을 코드에 적용함.
+    </div>
+</details>
 
 ## 코드
 - [포켓몬 프로젝트 코드 파일](https://github.com/sallyzmk/sallyzmk_project/tree/main/pokemone/src)
