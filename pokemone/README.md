@@ -182,8 +182,8 @@
             player defeat. game over.
         - [Result 2] Player wins  
           player wins. game over.
-    - End of confrontation  
-      Restores the HP, Mana, and Defense of all Pokémon participating in battle to their original gauges.  
+      - End of confrontation  
+        Restores the HP, Mana, and Defense of all Pokémon participating in battle to their original gauges.  
       
   - *Pocket Ball:
     - Applying the Pokeball catch rate in the actual Pokemon game to the code.
