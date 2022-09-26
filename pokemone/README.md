@@ -12,6 +12,7 @@
 <details>
 <summary>프로젝트 설명 상세보기</summary>
     <div markdown="1">
+
   - 1.게임시작
 
   - 2.인트로
@@ -113,6 +114,7 @@
 <details>
 <summary>View project description details</summary>
     <div markdown="1">
+
   - 1.starting Game
 
   - 2.Intro
