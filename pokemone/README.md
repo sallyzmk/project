@@ -110,6 +110,9 @@
 - Tools used : sts 3
 - incoding : MS949
 - Explanation : 
+<details>
+<summary>View project description details</summary>
+    <div markdown="1">
   - 1.starting Game
 
   - 2.Intro
@@ -183,6 +186,8 @@
   - *Pocket Ball:
     - Applying the Pokeball catch rate in the actual Pokemon game to the code.
     - Applied the shaking formula from the actual Pokemon game to the code.
+    </div>
+</details>
 
 ## code
 - [Pokemone Project code file](https://github.com/sallyzmk/sallyzmk_project/tree/main/pokemone/src)  
