@@ -27,6 +27,22 @@
     - 흙마을 (야생전투)
     - 체육관 (관장전투)
 ---
+  - *포켓몬스터 등록 : 
+    - 기본 포켓몬
+      - 총 5개 속성  
+        풀 < 불 < 물 < 전기 < 땅 < 풀
+      - 각 속성 별로 포켓몬 10마리
+      - 총 50마리
+    - 관장 포켓몬
+      - 총 3셋트
+      - 각 셋트 당 4마리
+      - 총 12마리
+      - 관장 포켓몬은 스킬이 없음. 초급자인 플레이어가 스킬까지 사용하는 관장의 포켓몬을 이길 수 없기 때문.
+---
+  - *포켓볼 :
+    - 실제 포켓몬 게임 속의 포켓볼 포획률을 코드에 적용함.
+    - 실제 포켓몬 게임 속의 흔들림 공식을 코드에 적용함.
+---
   - *야생전투 (1대1): 
     - 인트로
       - "전투를 하시겠습니까?"  
@@ -83,22 +99,7 @@
           플레이어 승리. 게임 종료.
       - 대결 종료  
         전투에 참여한 모든 포켓몬의 hp, 마나, 방어력을 기존 게이지로 원상복구한다.
----
-  - *포켓몬스터 등록 : 
-    - 기본 포켓몬
-      - 총 5개 속성  
-        풀 < 불 < 물 < 전기 < 땅 < 풀
-      - 각 속성 별로 포켓몬 10마리
-      - 총 50마리
-    - 관장 포켓몬
-      - 총 3셋트
-      - 각 셋트 당 4마리
-      - 총 12마리
-      - 관장 포켓몬은 스킬이 없음. 초급자인 플레이어가 스킬까지 사용하는 관장의 포켓몬을 이길 수 없기 때문.
----
-  - *포켓볼 :
-    - 실제 포켓몬 게임 속의 포켓볼 포획률을 코드에 적용함.
-    - 실제 포켓몬 게임 속의 흔들림 공식을 코드에 적용함.
+
     </div>
 </details>
 
@@ -141,6 +142,22 @@
     - Electric Village (Wild Battle)
     - Dirt Village (Wild Battle)
     - Gym (Chief Battle)
+---
+  - *Pokemon registration: 
+    - Basic Pokemon
+      - five kinds of attributes  
+        grass < fire < water < electricity < land < grass
+      - 10 Pokémon for each attribute
+      - 50 in total
+    - Enema Pokémon
+      - 3 sets in total
+      - 4 in each set
+      - 12 in total
+      - The leader Pokemon has no skills. Because a beginner player cannot defeat the leader's Pokémon, which even uses skills.
+---
+  - *Pocket Ball:
+    - Applying the Pokeball catch rate in the actual Pokemon game to the code.
+    - Applied the shaking formula from the actual Pokemon game to the code.
 ---
   - *Wild Battle (1v1):
     - intro 
@@ -195,23 +212,7 @@
         - [Result 2] Player wins  
           player wins. game over.
       - End of confrontation  
-        Restores the HP, Mana, and Defense of all Pokémon participating in battle to their original gauges.  
----
-  - *Pokemon registration: 
-    - Basic Pokemon
-      - five kinds of attributes  
-        grass < fire < water < electricity < land < grass
-      - 10 Pokémon for each attribute
-      - 50 in total
-    - Enema Pokémon
-      - 3 sets in total
-      - 4 in each set
-      - 12 in total
-      - The leader Pokemon has no skills. Because a beginner player cannot defeat the leader's Pokémon, which even uses skills.
----
-  - *Pocket Ball:
-    - Applying the Pokeball catch rate in the actual Pokemon game to the code.
-    - Applied the shaking formula from the actual Pokemon game to the code.
+        Restores the HP, Mana, and Defense of all Pokémon participating in battle to their original gauges.
 
     </div>
 </details>
